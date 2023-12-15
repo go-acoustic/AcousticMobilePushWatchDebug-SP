@@ -12,7 +12,7 @@
 
 import PackageDescription
 
-print("Using AcousticMobilePushWatch debug version, if you need release version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatch-SP")
+print("Using AcousticMobilePushWatchdebug version, if you need release version use https://github.com/Acoustic-Mobile-Push/AcousticMobilePushWatch-SP")
 let package = Package(
     name: "AcousticMobilePushWatch",
     platforms: [
@@ -22,7 +22,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AcousticMobilePushWatch",
-            targets: ["AcousticMobilePushWatch"),
+            targets: ["AcousticMobilePushWatch"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -34,7 +34,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AcousticMobilePushWatch",
-            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.15/AcousticMobilePushWatchDebug_XCFramework_Debug.zip",
-            checksum: "62c36253943e7c8e2590b23d4343a35181fb9f15390cda18d21f0feb2a42f04d"),
+            url: "https://github.com/Acoustic-Mobile-Push/iOS/releases/download/3.8.16/AcousticMobilePushWatch_XCFramework_Debug.zip",
+            checksum: "fdae5c441d99b733656158baaae99906ac51e4e52da13c72bc014ccb45b3584c"),
     ]
 )
